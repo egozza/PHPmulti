@@ -1,7 +1,7 @@
 <?php
 /**
   * @author Зайцев Е.В.
-  * @author Зайцев Егор Викторич  <egorza@mail.ru>
+  * @author Зайцев Егор Викторович  <egorza@mail.ru>
   */
 
 /**
