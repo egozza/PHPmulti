@@ -12,6 +12,7 @@ socketServerMetod.php пример работы класса на примере
 запуск примеров производить через консоль:
 
  "php socketServer.php" для запуска скрипта
+
  "php socketServerMetod.php" для запуска метода скрипта
 
 
