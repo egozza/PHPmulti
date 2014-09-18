@@ -296,7 +296,7 @@ class execScript{
             );
      /**
      * $pipes
-     * @var  ip адрес
+     * @var  array массив каналов для чтения и записи
      **/
     private $pipes;
 
