@@ -54,7 +54,7 @@ class socketServer {
      * @param integer $port номер порта
      */
 
-    function __construct($operator,$ipAdress='127.0.0.1',$port=8006){
+    function __construct($operator,$ipAdress='127.0.0.1',$port=8000){
         $this->ipAdress=$ipAdress;
         $this->port=$port;
         $this->Massage=new massage($operator);
@@ -195,7 +195,7 @@ class socketClient extends socketServer{
      * @param string $ipAdress ip адрес создаваемого сокета
      * @param integer $port номер порта
      */
-	function __construct($ipAdress='127.0.0.1',$port=8006 ){
+	function __construct($ipAdress='127.0.0.1',$port=8000 ){
 		$this->ipAdress=$ipAdress;
         $this->port=$port;
 
