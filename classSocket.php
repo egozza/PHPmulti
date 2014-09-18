@@ -269,7 +269,7 @@ class socketClient extends socketServer{
      * Включаем на сокете блокируемый режим
      */
     public function streamYesBlock(){
-        stream_set_blocking($this->socket,0);
+        stream_set_blocking($this->socket,1);
     }
     
 	
